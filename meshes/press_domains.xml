@@ -1,30 +1,97 @@
-<!DOCTYPE HTML>
-<html>
-
-<head>
-  <meta charset="utf-8">
-  <title>press_domains.xml</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-
-<body>
-  <style type="text/css">
-    html, body, #container {
-      height: 100%;
-    }
-    body, #container {
-      overflow: hidden;
-      margin: 0;
-    }
-    #iframe {
-      width: 100%;
-      height: 100%;
-      border: none;
-    }
-  </style>
-  <div id="container">
-    <iframe id="iframe" sandbox="allow-scripts" src="/user/petch-meshgen-ctq3p5mc/files/press_domains.xml"></iframe>
-  </div>
-</body>
-
-</html>
+<?xml version="1.0"?>
+<dolfin xmlns:dolfin="http://fenicsproject.org">
+  <mesh_function>
+    <mesh_value_collection name="f" type="uint" dim="2" size="90">
+      <value cell_index="0" local_entity="0" value="18446744073709551615" />
+      <value cell_index="1" local_entity="0" value="18446744073709551615" />
+      <value cell_index="2" local_entity="0" value="18446744073709551615" />
+      <value cell_index="3" local_entity="0" value="18446744073709551615" />
+      <value cell_index="4" local_entity="0" value="18446744073709551615" />
+      <value cell_index="5" local_entity="0" value="18446744073709551615" />
+      <value cell_index="6" local_entity="0" value="18446744073709551615" />
+      <value cell_index="7" local_entity="0" value="18446744073709551615" />
+      <value cell_index="8" local_entity="0" value="18446744073709551615" />
+      <value cell_index="9" local_entity="0" value="18446744073709551615" />
+      <value cell_index="10" local_entity="0" value="18446744073709551615" />
+      <value cell_index="11" local_entity="0" value="18446744073709551615" />
+      <value cell_index="12" local_entity="0" value="18446744073709551615" />
+      <value cell_index="13" local_entity="0" value="18446744073709551615" />
+      <value cell_index="14" local_entity="0" value="18446744073709551615" />
+      <value cell_index="15" local_entity="0" value="18446744073709551615" />
+      <value cell_index="16" local_entity="0" value="18446744073709551615" />
+      <value cell_index="17" local_entity="0" value="18446744073709551615" />
+      <value cell_index="18" local_entity="0" value="18446744073709551615" />
+      <value cell_index="19" local_entity="0" value="18446744073709551615" />
+      <value cell_index="20" local_entity="0" value="18446744073709551615" />
+      <value cell_index="21" local_entity="0" value="18446744073709551615" />
+      <value cell_index="22" local_entity="0" value="18446744073709551615" />
+      <value cell_index="23" local_entity="0" value="18446744073709551615" />
+      <value cell_index="24" local_entity="0" value="18446744073709551615" />
+      <value cell_index="25" local_entity="0" value="18446744073709551615" />
+      <value cell_index="26" local_entity="0" value="18446744073709551615" />
+      <value cell_index="27" local_entity="0" value="18446744073709551615" />
+      <value cell_index="28" local_entity="0" value="18446744073709551615" />
+      <value cell_index="29" local_entity="0" value="18446744073709551615" />
+      <value cell_index="30" local_entity="0" value="18446744073709551615" />
+      <value cell_index="31" local_entity="0" value="18446744073709551615" />
+      <value cell_index="32" local_entity="0" value="18446744073709551615" />
+      <value cell_index="33" local_entity="0" value="18446744073709551615" />
+      <value cell_index="34" local_entity="0" value="18446744073709551615" />
+      <value cell_index="35" local_entity="0" value="18446744073709551615" />
+      <value cell_index="36" local_entity="0" value="18446744073709551615" />
+      <value cell_index="37" local_entity="0" value="18446744073709551615" />
+      <value cell_index="38" local_entity="0" value="18446744073709551615" />
+      <value cell_index="39" local_entity="0" value="18446744073709551615" />
+      <value cell_index="40" local_entity="0" value="18446744073709551615" />
+      <value cell_index="41" local_entity="0" value="18446744073709551615" />
+      <value cell_index="42" local_entity="0" value="18446744073709551615" />
+      <value cell_index="43" local_entity="0" value="18446744073709551615" />
+      <value cell_index="44" local_entity="0" value="18446744073709551615" />
+      <value cell_index="45" local_entity="0" value="18446744073709551615" />
+      <value cell_index="46" local_entity="0" value="18446744073709551615" />
+      <value cell_index="47" local_entity="0" value="18446744073709551615" />
+      <value cell_index="48" local_entity="0" value="18446744073709551615" />
+      <value cell_index="49" local_entity="0" value="18446744073709551615" />
+      <value cell_index="50" local_entity="0" value="18446744073709551615" />
+      <value cell_index="51" local_entity="0" value="18446744073709551615" />
+      <value cell_index="52" local_entity="0" value="18446744073709551615" />
+      <value cell_index="53" local_entity="0" value="18446744073709551615" />
+      <value cell_index="54" local_entity="0" value="18446744073709551615" />
+      <value cell_index="55" local_entity="0" value="18446744073709551615" />
+      <value cell_index="56" local_entity="0" value="18446744073709551615" />
+      <value cell_index="57" local_entity="0" value="18446744073709551615" />
+      <value cell_index="58" local_entity="0" value="18446744073709551615" />
+      <value cell_index="59" local_entity="0" value="18446744073709551615" />
+      <value cell_index="60" local_entity="0" value="18446744073709551615" />
+      <value cell_index="61" local_entity="0" value="18446744073709551615" />
+      <value cell_index="62" local_entity="0" value="18446744073709551615" />
+      <value cell_index="63" local_entity="0" value="18446744073709551615" />
+      <value cell_index="64" local_entity="0" value="18446744073709551615" />
+      <value cell_index="65" local_entity="0" value="18446744073709551615" />
+      <value cell_index="66" local_entity="0" value="18446744073709551615" />
+      <value cell_index="67" local_entity="0" value="18446744073709551615" />
+      <value cell_index="68" local_entity="0" value="18446744073709551615" />
+      <value cell_index="69" local_entity="0" value="18446744073709551615" />
+      <value cell_index="70" local_entity="0" value="18446744073709551615" />
+      <value cell_index="71" local_entity="0" value="18446744073709551615" />
+      <value cell_index="72" local_entity="0" value="18446744073709551615" />
+      <value cell_index="73" local_entity="0" value="18446744073709551615" />
+      <value cell_index="74" local_entity="0" value="18446744073709551615" />
+      <value cell_index="75" local_entity="0" value="18446744073709551615" />
+      <value cell_index="76" local_entity="0" value="18446744073709551615" />
+      <value cell_index="77" local_entity="0" value="18446744073709551615" />
+      <value cell_index="78" local_entity="0" value="18446744073709551615" />
+      <value cell_index="79" local_entity="0" value="18446744073709551615" />
+      <value cell_index="80" local_entity="0" value="18446744073709551615" />
+      <value cell_index="81" local_entity="0" value="18446744073709551615" />
+      <value cell_index="82" local_entity="0" value="18446744073709551615" />
+      <value cell_index="83" local_entity="0" value="18446744073709551615" />
+      <value cell_index="84" local_entity="0" value="18446744073709551615" />
+      <value cell_index="85" local_entity="0" value="18446744073709551615" />
+      <value cell_index="86" local_entity="0" value="18446744073709551615" />
+      <value cell_index="87" local_entity="0" value="18446744073709551615" />
+      <value cell_index="88" local_entity="0" value="18446744073709551615" />
+      <value cell_index="89" local_entity="0" value="18446744073709551615" />
+    </mesh_value_collection>
+  </mesh_function>
+</dolfin>

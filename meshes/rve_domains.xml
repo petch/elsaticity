@@ -1,30 +1,57 @@
-<!DOCTYPE HTML>
-<html>
-
-<head>
-  <meta charset="utf-8">
-  <title>rve_domains.xml</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-
-<body>
-  <style type="text/css">
-    html, body, #container {
-      height: 100%;
-    }
-    body, #container {
-      overflow: hidden;
-      margin: 0;
-    }
-    #iframe {
-      width: 100%;
-      height: 100%;
-      border: none;
-    }
-  </style>
-  <div id="container">
-    <iframe id="iframe" sandbox="allow-scripts" src="/user/petch-meshgen-ctq3p5mc/files/rve_domains.xml"></iframe>
-  </div>
-</body>
-
-</html>
+<?xml version="1.0"?>
+<dolfin xmlns:dolfin="http://fenicsproject.org">
+  <mesh_function>
+    <mesh_value_collection name="f" type="uint" dim="2" size="50">
+      <value cell_index="0" local_entity="0" value="0" />
+      <value cell_index="1" local_entity="0" value="0" />
+      <value cell_index="2" local_entity="0" value="0" />
+      <value cell_index="3" local_entity="0" value="0" />
+      <value cell_index="4" local_entity="0" value="0" />
+      <value cell_index="5" local_entity="0" value="0" />
+      <value cell_index="6" local_entity="0" value="0" />
+      <value cell_index="7" local_entity="0" value="1" />
+      <value cell_index="8" local_entity="0" value="1" />
+      <value cell_index="9" local_entity="0" value="0" />
+      <value cell_index="10" local_entity="0" value="0" />
+      <value cell_index="11" local_entity="0" value="0" />
+      <value cell_index="12" local_entity="0" value="0" />
+      <value cell_index="13" local_entity="0" value="0" />
+      <value cell_index="14" local_entity="0" value="0" />
+      <value cell_index="15" local_entity="0" value="0" />
+      <value cell_index="16" local_entity="0" value="0" />
+      <value cell_index="17" local_entity="0" value="0" />
+      <value cell_index="18" local_entity="0" value="0" />
+      <value cell_index="19" local_entity="0" value="0" />
+      <value cell_index="20" local_entity="0" value="0" />
+      <value cell_index="21" local_entity="0" value="0" />
+      <value cell_index="22" local_entity="0" value="0" />
+      <value cell_index="23" local_entity="0" value="0" />
+      <value cell_index="24" local_entity="0" value="0" />
+      <value cell_index="25" local_entity="0" value="0" />
+      <value cell_index="26" local_entity="0" value="0" />
+      <value cell_index="27" local_entity="0" value="0" />
+      <value cell_index="28" local_entity="0" value="0" />
+      <value cell_index="29" local_entity="0" value="0" />
+      <value cell_index="30" local_entity="0" value="0" />
+      <value cell_index="31" local_entity="0" value="0" />
+      <value cell_index="32" local_entity="0" value="0" />
+      <value cell_index="33" local_entity="0" value="0" />
+      <value cell_index="34" local_entity="0" value="0" />
+      <value cell_index="35" local_entity="0" value="0" />
+      <value cell_index="36" local_entity="0" value="0" />
+      <value cell_index="37" local_entity="0" value="0" />
+      <value cell_index="38" local_entity="0" value="0" />
+      <value cell_index="39" local_entity="0" value="0" />
+      <value cell_index="40" local_entity="0" value="0" />
+      <value cell_index="41" local_entity="0" value="0" />
+      <value cell_index="42" local_entity="0" value="0" />
+      <value cell_index="43" local_entity="0" value="1" />
+      <value cell_index="44" local_entity="0" value="1" />
+      <value cell_index="45" local_entity="0" value="1" />
+      <value cell_index="46" local_entity="0" value="0" />
+      <value cell_index="47" local_entity="0" value="1" />
+      <value cell_index="48" local_entity="0" value="1" />
+      <value cell_index="49" local_entity="0" value="1" />
+    </mesh_value_collection>
+  </mesh_function>
+</dolfin>
