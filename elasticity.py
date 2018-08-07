@@ -56,8 +56,8 @@ def problem(name):
     y = Function(V)
     solve(a == L, y, bc)
     
-    File("%s/u.xml" % name) << y
     File("%s/u.pvd" % name) << y
+    File("%s/s.pvd" % name) << project(sigma(lmd, mu, y), TensorFunctionSpace(mesh, 'CG', 1)) 
     plt.figure(figsize=(16, 12))
     plot(y)
     return y
@@ -101,8 +101,8 @@ def hom_local(name):
     Eh = []
     for i in range(len(bcs)):
         solve(a == L, y, bcs[i])
-        File("%s/u%d.xml" % (name, i)) << y
         File("%s/u%d.pvd" % (name, i)) << y
+        File("%s/s%d.pvd" % (name, i)) << project(sigma(lmd, mu, y), TensorFunctionSpace(mesh, 'CG', 1)) 
         plt.figure(figsize=(16, 12))
         plot(y)
         Eh.append(hom_coef(lmd, mu, y, i))
@@ -164,8 +164,9 @@ def hom(name, Eh):
     y = Function(V)
     solve(a == L, y, bc)
     
-    File("%s/u.xml" % name) << y
     File("%s/u.pvd" % name) << y
+    s = E * hom_epsilon(y)
+    File("%s/s.pvd" % name) << project(as_matrix(((s[0], s[1]/2), (s[1]/2, s[2]))), TensorFunctionSpace(mesh, 'CG', 1)) 
     plt.figure(figsize=(16, 12))
     plot(y)
     return y
