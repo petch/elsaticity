@@ -132,7 +132,7 @@ def ElasticityCoef(domains, EC0, EC1, EC2):
 def hom_epsilon(v):
     return as_vector((v[0].dx(0), (v[0].dx(1)+v[1].dx(0)), v[1].dx(1)))
     
-def hom_coarse(name, Eh):
+def hom(name, Eh):
     mesh = Mesh("meshes/%s.xml" % name)
     domains = MeshFunction("size_t", mesh, "meshes/%s_domains.xml" % name)
     bounds = MeshFunction("size_t", mesh, 1, 0)
@@ -176,7 +176,8 @@ E1, E2 = 4e10, 2e11
 nu1, nu2 = 0.15, 0.3
 f = Constant((0, -1e5))
 
-#y = problem("block")
 Eh = hom_local("rve")
-yh = hom_coarse("sparse", Eh)
+y = problem("block")
+ys = hom("sparse", Eh)
+yc = hom("coarse", Eh)
 plt.show()
