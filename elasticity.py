@@ -58,8 +58,8 @@ def problem(name):
     
     File("%s/u.pvd" % name) << y
     File("%s/s.pvd" % name) << project(sigma(lmd, mu, y), TensorFunctionSpace(mesh, 'CG', 1)) 
-    plt.figure(figsize=(16, 12))
-    plot(y)
+    plt.figure()
+    plt.colorbar(plot(y))
     return y
 
 def hom_coef(lmd, mu, y, i):
@@ -103,8 +103,8 @@ def hom_local(name):
         solve(a == L, y, bcs[i])
         File("%s/u%d.pvd" % (name, i)) << y
         File("%s/s%d.pvd" % (name, i)) << project(sigma(lmd, mu, y), TensorFunctionSpace(mesh, 'CG', 1)) 
-        plt.figure(figsize=(16, 12))
-        plot(y)
+        plt.figure()
+        plt.colorbar(plot(y))
         Eh.append(hom_coef(lmd, mu, y, i))
     return Eh
    
@@ -151,7 +151,7 @@ def hom(name, Eh):
     print(EC1)
     print(EC2)
 
-    E = ElasticityCoef(domains, EC1, EC1, EC1)
+    E = ElasticityCoef(domains, EC0, EC1, EC2)
     
     ds = Measure("ds", subdomain_data=bounds)
     V = VectorFunctionSpace(mesh, "CG", 1)
@@ -167,13 +167,13 @@ def hom(name, Eh):
     File("%s/u.pvd" % name) << y
     s = E * hom_epsilon(y)
     File("%s/s.pvd" % name) << project(as_matrix(((s[0], s[1]/2), (s[1]/2, s[2]))), TensorFunctionSpace(mesh, 'CG', 1)) 
-    plt.figure(figsize=(16, 12))
-    plot(y)
+    plt.figure()
+    plt.colorbar(plot(y))
     return y
     
 blockHeight = 0.5
 pressHeight = 0.1
-E1, E2 = 4e10, 2e11
+E1, E2 = 4e7, 2e11
 nu1, nu2 = 0.15, 0.3
 f = Constant((0, -1e5))
 
@@ -181,4 +181,10 @@ Eh = hom_local("rve")
 y = problem("block")
 ys = hom("sparse", Eh)
 yc = hom("coarse", Eh)
+es = project(y-ys, y.function_space())
+plt.figure()
+plt.colorbar(plot(es))
+ec = project(y-yc, y.function_space())
+plt.figure()
+plt.colorbar(plot(ec))
 plt.show()
