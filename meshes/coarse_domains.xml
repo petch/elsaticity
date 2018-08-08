@@ -1,53 +1,53 @@
 <?xml version="1.0"?>
 <dolfin xmlns:dolfin="http://fenicsproject.org">
   <mesh_function>
-    <mesh_value_collection name="f" type="uint" dim="2" size="672">
+    <mesh_value_collection name="f" type="uint" dim="2" size="644">
       <value cell_index="0" local_entity="0" value="1" />
       <value cell_index="1" local_entity="0" value="0" />
-      <value cell_index="2" local_entity="0" value="0" />
+      <value cell_index="2" local_entity="0" value="1" />
       <value cell_index="3" local_entity="0" value="1" />
-      <value cell_index="4" local_entity="0" value="0" />
+      <value cell_index="4" local_entity="0" value="1" />
       <value cell_index="5" local_entity="0" value="0" />
-      <value cell_index="6" local_entity="0" value="0" />
+      <value cell_index="6" local_entity="0" value="1" />
       <value cell_index="7" local_entity="0" value="1" />
       <value cell_index="8" local_entity="0" value="1" />
-      <value cell_index="9" local_entity="0" value="0" />
-      <value cell_index="10" local_entity="0" value="0" />
+      <value cell_index="9" local_entity="0" value="1" />
+      <value cell_index="10" local_entity="0" value="1" />
       <value cell_index="11" local_entity="0" value="1" />
       <value cell_index="12" local_entity="0" value="1" />
       <value cell_index="13" local_entity="0" value="1" />
       <value cell_index="14" local_entity="0" value="1" />
       <value cell_index="15" local_entity="0" value="1" />
-      <value cell_index="16" local_entity="0" value="0" />
+      <value cell_index="16" local_entity="0" value="1" />
       <value cell_index="17" local_entity="0" value="0" />
-      <value cell_index="18" local_entity="0" value="0" />
+      <value cell_index="18" local_entity="0" value="1" />
       <value cell_index="19" local_entity="0" value="1" />
       <value cell_index="20" local_entity="0" value="1" />
       <value cell_index="21" local_entity="0" value="1" />
-      <value cell_index="22" local_entity="0" value="1" />
+      <value cell_index="22" local_entity="0" value="0" />
       <value cell_index="23" local_entity="0" value="1" />
-      <value cell_index="24" local_entity="0" value="0" />
-      <value cell_index="25" local_entity="0" value="1" />
-      <value cell_index="26" local_entity="0" value="1" />
+      <value cell_index="24" local_entity="0" value="1" />
+      <value cell_index="25" local_entity="0" value="0" />
+      <value cell_index="26" local_entity="0" value="0" />
       <value cell_index="27" local_entity="0" value="0" />
-      <value cell_index="28" local_entity="0" value="0" />
+      <value cell_index="28" local_entity="0" value="1" />
       <value cell_index="29" local_entity="0" value="0" />
-      <value cell_index="30" local_entity="0" value="1" />
+      <value cell_index="30" local_entity="0" value="0" />
       <value cell_index="31" local_entity="0" value="0" />
       <value cell_index="32" local_entity="0" value="0" />
-      <value cell_index="33" local_entity="0" value="1" />
-      <value cell_index="34" local_entity="0" value="0" />
-      <value cell_index="35" local_entity="0" value="1" />
+      <value cell_index="33" local_entity="0" value="0" />
+      <value cell_index="34" local_entity="0" value="1" />
+      <value cell_index="35" local_entity="0" value="0" />
       <value cell_index="36" local_entity="0" value="0" />
-      <value cell_index="37" local_entity="0" value="0" />
-      <value cell_index="38" local_entity="0" value="1" />
+      <value cell_index="37" local_entity="0" value="1" />
+      <value cell_index="38" local_entity="0" value="0" />
       <value cell_index="39" local_entity="0" value="0" />
-      <value cell_index="40" local_entity="0" value="1" />
-      <value cell_index="41" local_entity="0" value="0" />
+      <value cell_index="40" local_entity="0" value="0" />
+      <value cell_index="41" local_entity="0" value="1" />
       <value cell_index="42" local_entity="0" value="0" />
       <value cell_index="43" local_entity="0" value="0" />
       <value cell_index="44" local_entity="0" value="0" />
-      <value cell_index="45" local_entity="0" value="0" />
+      <value cell_index="45" local_entity="0" value="1" />
       <value cell_index="46" local_entity="0" value="0" />
       <value cell_index="47" local_entity="0" value="0" />
       <value cell_index="48" local_entity="0" value="0" />
@@ -142,7 +142,7 @@
       <value cell_index="137" local_entity="0" value="0" />
       <value cell_index="138" local_entity="0" value="0" />
       <value cell_index="139" local_entity="0" value="0" />
-      <value cell_index="140" local_entity="0" value="0" />
+      <value cell_index="140" local_entity="0" value="1" />
       <value cell_index="141" local_entity="0" value="0" />
       <value cell_index="142" local_entity="0" value="0" />
       <value cell_index="143" local_entity="0" value="0" />
@@ -227,27 +227,27 @@
       <value cell_index="222" local_entity="0" value="0" />
       <value cell_index="223" local_entity="0" value="0" />
       <value cell_index="224" local_entity="0" value="0" />
-      <value cell_index="225" local_entity="0" value="1" />
-      <value cell_index="226" local_entity="0" value="1" />
-      <value cell_index="227" local_entity="0" value="1" />
-      <value cell_index="228" local_entity="0" value="1" />
-      <value cell_index="229" local_entity="0" value="1" />
-      <value cell_index="230" local_entity="0" value="1" />
-      <value cell_index="231" local_entity="0" value="1" />
-      <value cell_index="232" local_entity="0" value="1" />
-      <value cell_index="233" local_entity="0" value="1" />
-      <value cell_index="234" local_entity="0" value="1" />
-      <value cell_index="235" local_entity="0" value="1" />
-      <value cell_index="236" local_entity="0" value="1" />
-      <value cell_index="237" local_entity="0" value="1" />
-      <value cell_index="238" local_entity="0" value="1" />
-      <value cell_index="239" local_entity="0" value="1" />
-      <value cell_index="240" local_entity="0" value="1" />
-      <value cell_index="241" local_entity="0" value="1" />
-      <value cell_index="242" local_entity="0" value="1" />
-      <value cell_index="243" local_entity="0" value="1" />
-      <value cell_index="244" local_entity="0" value="1" />
-      <value cell_index="245" local_entity="0" value="1" />
+      <value cell_index="225" local_entity="0" value="0" />
+      <value cell_index="226" local_entity="0" value="0" />
+      <value cell_index="227" local_entity="0" value="0" />
+      <value cell_index="228" local_entity="0" value="0" />
+      <value cell_index="229" local_entity="0" value="0" />
+      <value cell_index="230" local_entity="0" value="0" />
+      <value cell_index="231" local_entity="0" value="0" />
+      <value cell_index="232" local_entity="0" value="0" />
+      <value cell_index="233" local_entity="0" value="0" />
+      <value cell_index="234" local_entity="0" value="0" />
+      <value cell_index="235" local_entity="0" value="0" />
+      <value cell_index="236" local_entity="0" value="0" />
+      <value cell_index="237" local_entity="0" value="0" />
+      <value cell_index="238" local_entity="0" value="0" />
+      <value cell_index="239" local_entity="0" value="0" />
+      <value cell_index="240" local_entity="0" value="0" />
+      <value cell_index="241" local_entity="0" value="0" />
+      <value cell_index="242" local_entity="0" value="0" />
+      <value cell_index="243" local_entity="0" value="0" />
+      <value cell_index="244" local_entity="0" value="0" />
+      <value cell_index="245" local_entity="0" value="0" />
       <value cell_index="246" local_entity="0" value="0" />
       <value cell_index="247" local_entity="0" value="0" />
       <value cell_index="248" local_entity="0" value="0" />
@@ -353,15 +353,15 @@
       <value cell_index="348" local_entity="0" value="0" />
       <value cell_index="349" local_entity="0" value="0" />
       <value cell_index="350" local_entity="0" value="0" />
-      <value cell_index="351" local_entity="0" value="0" />
-      <value cell_index="352" local_entity="0" value="0" />
-      <value cell_index="353" local_entity="0" value="0" />
-      <value cell_index="354" local_entity="0" value="0" />
-      <value cell_index="355" local_entity="0" value="0" />
-      <value cell_index="356" local_entity="0" value="0" />
-      <value cell_index="357" local_entity="0" value="0" />
-      <value cell_index="358" local_entity="0" value="0" />
-      <value cell_index="359" local_entity="0" value="0" />
+      <value cell_index="351" local_entity="0" value="1" />
+      <value cell_index="352" local_entity="0" value="1" />
+      <value cell_index="353" local_entity="0" value="1" />
+      <value cell_index="354" local_entity="0" value="1" />
+      <value cell_index="355" local_entity="0" value="1" />
+      <value cell_index="356" local_entity="0" value="1" />
+      <value cell_index="357" local_entity="0" value="1" />
+      <value cell_index="358" local_entity="0" value="1" />
+      <value cell_index="359" local_entity="0" value="1" />
       <value cell_index="360" local_entity="0" value="0" />
       <value cell_index="361" local_entity="0" value="0" />
       <value cell_index="362" local_entity="0" value="0" />
@@ -397,18 +397,18 @@
       <value cell_index="392" local_entity="0" value="0" />
       <value cell_index="393" local_entity="0" value="0" />
       <value cell_index="394" local_entity="0" value="0" />
-      <value cell_index="395" local_entity="0" value="1" />
-      <value cell_index="396" local_entity="0" value="1" />
-      <value cell_index="397" local_entity="0" value="1" />
-      <value cell_index="398" local_entity="0" value="1" />
-      <value cell_index="399" local_entity="0" value="1" />
-      <value cell_index="400" local_entity="0" value="1" />
-      <value cell_index="401" local_entity="0" value="1" />
-      <value cell_index="402" local_entity="0" value="1" />
-      <value cell_index="403" local_entity="0" value="1" />
-      <value cell_index="404" local_entity="0" value="1" />
-      <value cell_index="405" local_entity="0" value="1" />
-      <value cell_index="406" local_entity="0" value="1" />
+      <value cell_index="395" local_entity="0" value="0" />
+      <value cell_index="396" local_entity="0" value="0" />
+      <value cell_index="397" local_entity="0" value="0" />
+      <value cell_index="398" local_entity="0" value="0" />
+      <value cell_index="399" local_entity="0" value="0" />
+      <value cell_index="400" local_entity="0" value="0" />
+      <value cell_index="401" local_entity="0" value="0" />
+      <value cell_index="402" local_entity="0" value="0" />
+      <value cell_index="403" local_entity="0" value="0" />
+      <value cell_index="404" local_entity="0" value="0" />
+      <value cell_index="405" local_entity="0" value="0" />
+      <value cell_index="406" local_entity="0" value="0" />
       <value cell_index="407" local_entity="0" value="0" />
       <value cell_index="408" local_entity="0" value="0" />
       <value cell_index="409" local_entity="0" value="0" />
@@ -441,18 +441,18 @@
       <value cell_index="436" local_entity="0" value="0" />
       <value cell_index="437" local_entity="0" value="0" />
       <value cell_index="438" local_entity="0" value="0" />
-      <value cell_index="439" local_entity="0" value="1" />
-      <value cell_index="440" local_entity="0" value="1" />
-      <value cell_index="441" local_entity="0" value="1" />
-      <value cell_index="442" local_entity="0" value="1" />
-      <value cell_index="443" local_entity="0" value="1" />
-      <value cell_index="444" local_entity="0" value="1" />
-      <value cell_index="445" local_entity="0" value="1" />
-      <value cell_index="446" local_entity="0" value="1" />
-      <value cell_index="447" local_entity="0" value="1" />
-      <value cell_index="448" local_entity="0" value="1" />
-      <value cell_index="449" local_entity="0" value="1" />
-      <value cell_index="450" local_entity="0" value="1" />
+      <value cell_index="439" local_entity="0" value="0" />
+      <value cell_index="440" local_entity="0" value="0" />
+      <value cell_index="441" local_entity="0" value="0" />
+      <value cell_index="442" local_entity="0" value="0" />
+      <value cell_index="443" local_entity="0" value="0" />
+      <value cell_index="444" local_entity="0" value="0" />
+      <value cell_index="445" local_entity="0" value="0" />
+      <value cell_index="446" local_entity="0" value="0" />
+      <value cell_index="447" local_entity="0" value="0" />
+      <value cell_index="448" local_entity="0" value="0" />
+      <value cell_index="449" local_entity="0" value="0" />
+      <value cell_index="450" local_entity="0" value="0" />
       <value cell_index="451" local_entity="0" value="0" />
       <value cell_index="452" local_entity="0" value="0" />
       <value cell_index="453" local_entity="0" value="0" />
@@ -550,20 +550,20 @@
       <value cell_index="545" local_entity="0" value="0" />
       <value cell_index="546" local_entity="0" value="0" />
       <value cell_index="547" local_entity="0" value="0" />
-      <value cell_index="548" local_entity="0" value="0" />
-      <value cell_index="549" local_entity="0" value="0" />
-      <value cell_index="550" local_entity="0" value="0" />
-      <value cell_index="551" local_entity="0" value="0" />
-      <value cell_index="552" local_entity="0" value="0" />
-      <value cell_index="553" local_entity="0" value="0" />
+      <value cell_index="548" local_entity="0" value="1" />
+      <value cell_index="549" local_entity="0" value="1" />
+      <value cell_index="550" local_entity="0" value="1" />
+      <value cell_index="551" local_entity="0" value="1" />
+      <value cell_index="552" local_entity="0" value="1" />
+      <value cell_index="553" local_entity="0" value="1" />
       <value cell_index="554" local_entity="0" value="0" />
       <value cell_index="555" local_entity="0" value="0" />
-      <value cell_index="556" local_entity="0" value="0" />
-      <value cell_index="557" local_entity="0" value="0" />
-      <value cell_index="558" local_entity="0" value="0" />
-      <value cell_index="559" local_entity="0" value="0" />
-      <value cell_index="560" local_entity="0" value="0" />
-      <value cell_index="561" local_entity="0" value="0" />
+      <value cell_index="556" local_entity="0" value="1" />
+      <value cell_index="557" local_entity="0" value="1" />
+      <value cell_index="558" local_entity="0" value="1" />
+      <value cell_index="559" local_entity="0" value="1" />
+      <value cell_index="560" local_entity="0" value="1" />
+      <value cell_index="561" local_entity="0" value="1" />
       <value cell_index="562" local_entity="0" value="0" />
       <value cell_index="563" local_entity="0" value="0" />
       <value cell_index="564" local_entity="0" value="0" />
@@ -612,68 +612,40 @@
       <value cell_index="607" local_entity="0" value="0" />
       <value cell_index="608" local_entity="0" value="0" />
       <value cell_index="609" local_entity="0" value="0" />
-      <value cell_index="610" local_entity="0" value="0" />
-      <value cell_index="611" local_entity="0" value="0" />
-      <value cell_index="612" local_entity="0" value="0" />
-      <value cell_index="613" local_entity="0" value="0" />
-      <value cell_index="614" local_entity="0" value="0" />
-      <value cell_index="615" local_entity="0" value="0" />
+      <value cell_index="610" local_entity="0" value="1" />
+      <value cell_index="611" local_entity="0" value="1" />
+      <value cell_index="612" local_entity="0" value="1" />
+      <value cell_index="613" local_entity="0" value="1" />
+      <value cell_index="614" local_entity="0" value="1" />
+      <value cell_index="615" local_entity="0" value="1" />
       <value cell_index="616" local_entity="0" value="0" />
       <value cell_index="617" local_entity="0" value="0" />
-      <value cell_index="618" local_entity="0" value="0" />
-      <value cell_index="619" local_entity="0" value="0" />
-      <value cell_index="620" local_entity="0" value="0" />
-      <value cell_index="621" local_entity="0" value="0" />
+      <value cell_index="618" local_entity="0" value="1" />
+      <value cell_index="619" local_entity="0" value="1" />
+      <value cell_index="620" local_entity="0" value="1" />
+      <value cell_index="621" local_entity="0" value="1" />
       <value cell_index="622" local_entity="0" value="0" />
       <value cell_index="623" local_entity="0" value="0" />
-      <value cell_index="624" local_entity="0" value="0" />
-      <value cell_index="625" local_entity="0" value="0" />
-      <value cell_index="626" local_entity="0" value="0" />
-      <value cell_index="627" local_entity="0" value="0" />
+      <value cell_index="624" local_entity="0" value="1" />
+      <value cell_index="625" local_entity="0" value="1" />
+      <value cell_index="626" local_entity="0" value="1" />
+      <value cell_index="627" local_entity="0" value="1" />
       <value cell_index="628" local_entity="0" value="0" />
       <value cell_index="629" local_entity="0" value="0" />
-      <value cell_index="630" local_entity="0" value="0" />
-      <value cell_index="631" local_entity="0" value="0" />
-      <value cell_index="632" local_entity="0" value="0" />
-      <value cell_index="633" local_entity="0" value="0" />
-      <value cell_index="634" local_entity="0" value="1" />
-      <value cell_index="635" local_entity="0" value="1" />
-      <value cell_index="636" local_entity="0" value="0" />
-      <value cell_index="637" local_entity="0" value="0" />
+      <value cell_index="630" local_entity="0" value="1" />
+      <value cell_index="631" local_entity="0" value="1" />
+      <value cell_index="632" local_entity="0" value="1" />
+      <value cell_index="633" local_entity="0" value="1" />
+      <value cell_index="634" local_entity="0" value="0" />
+      <value cell_index="635" local_entity="0" value="0" />
+      <value cell_index="636" local_entity="0" value="1" />
+      <value cell_index="637" local_entity="0" value="1" />
       <value cell_index="638" local_entity="0" value="1" />
       <value cell_index="639" local_entity="0" value="1" />
       <value cell_index="640" local_entity="0" value="1" />
       <value cell_index="641" local_entity="0" value="1" />
       <value cell_index="642" local_entity="0" value="0" />
       <value cell_index="643" local_entity="0" value="0" />
-      <value cell_index="644" local_entity="0" value="1" />
-      <value cell_index="645" local_entity="0" value="1" />
-      <value cell_index="646" local_entity="0" value="1" />
-      <value cell_index="647" local_entity="0" value="1" />
-      <value cell_index="648" local_entity="0" value="0" />
-      <value cell_index="649" local_entity="0" value="0" />
-      <value cell_index="650" local_entity="0" value="1" />
-      <value cell_index="651" local_entity="0" value="1" />
-      <value cell_index="652" local_entity="0" value="1" />
-      <value cell_index="653" local_entity="0" value="1" />
-      <value cell_index="654" local_entity="0" value="0" />
-      <value cell_index="655" local_entity="0" value="0" />
-      <value cell_index="656" local_entity="0" value="1" />
-      <value cell_index="657" local_entity="0" value="1" />
-      <value cell_index="658" local_entity="0" value="1" />
-      <value cell_index="659" local_entity="0" value="1" />
-      <value cell_index="660" local_entity="0" value="0" />
-      <value cell_index="661" local_entity="0" value="0" />
-      <value cell_index="662" local_entity="0" value="1" />
-      <value cell_index="663" local_entity="0" value="1" />
-      <value cell_index="664" local_entity="0" value="1" />
-      <value cell_index="665" local_entity="0" value="1" />
-      <value cell_index="666" local_entity="0" value="0" />
-      <value cell_index="667" local_entity="0" value="0" />
-      <value cell_index="668" local_entity="0" value="1" />
-      <value cell_index="669" local_entity="0" value="1" />
-      <value cell_index="670" local_entity="0" value="0" />
-      <value cell_index="671" local_entity="0" value="0" />
     </mesh_value_collection>
   </mesh_function>
 </dolfin>

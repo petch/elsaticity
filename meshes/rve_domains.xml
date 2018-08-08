@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <dolfin xmlns:dolfin="http://fenicsproject.org">
   <mesh_function>
-    <mesh_value_collection name="f" type="uint" dim="2" size="50">
+    <mesh_value_collection name="f" type="uint" dim="2" size="44">
       <value cell_index="0" local_entity="0" value="0" />
-      <value cell_index="1" local_entity="0" value="0" />
+      <value cell_index="1" local_entity="0" value="1" />
       <value cell_index="2" local_entity="0" value="0" />
       <value cell_index="3" local_entity="0" value="0" />
       <value cell_index="4" local_entity="0" value="0" />
@@ -11,7 +11,7 @@
       <value cell_index="6" local_entity="0" value="0" />
       <value cell_index="7" local_entity="0" value="1" />
       <value cell_index="8" local_entity="0" value="1" />
-      <value cell_index="9" local_entity="0" value="0" />
+      <value cell_index="9" local_entity="0" value="1" />
       <value cell_index="10" local_entity="0" value="0" />
       <value cell_index="11" local_entity="0" value="0" />
       <value cell_index="12" local_entity="0" value="0" />
@@ -45,13 +45,7 @@
       <value cell_index="40" local_entity="0" value="0" />
       <value cell_index="41" local_entity="0" value="0" />
       <value cell_index="42" local_entity="0" value="0" />
-      <value cell_index="43" local_entity="0" value="1" />
-      <value cell_index="44" local_entity="0" value="1" />
-      <value cell_index="45" local_entity="0" value="1" />
-      <value cell_index="46" local_entity="0" value="0" />
-      <value cell_index="47" local_entity="0" value="1" />
-      <value cell_index="48" local_entity="0" value="1" />
-      <value cell_index="49" local_entity="0" value="1" />
+      <value cell_index="43" local_entity="0" value="0" />
     </mesh_value_collection>
   </mesh_function>
 </dolfin>

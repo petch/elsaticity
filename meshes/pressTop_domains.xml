@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <dolfin xmlns:dolfin="http://fenicsproject.org">
   <mesh_function>
-    <mesh_value_collection name="f" type="uint" dim="2" size="134">
+    <mesh_value_collection name="f" type="uint" dim="2" size="108">
       <value cell_index="0" local_entity="0" value="18446744073709551615" />
       <value cell_index="1" local_entity="0" value="18446744073709551615" />
       <value cell_index="2" local_entity="0" value="18446744073709551615" />
@@ -110,32 +110,6 @@
       <value cell_index="105" local_entity="0" value="18446744073709551615" />
       <value cell_index="106" local_entity="0" value="18446744073709551615" />
       <value cell_index="107" local_entity="0" value="18446744073709551615" />
-      <value cell_index="108" local_entity="0" value="18446744073709551615" />
-      <value cell_index="109" local_entity="0" value="18446744073709551615" />
-      <value cell_index="110" local_entity="0" value="18446744073709551615" />
-      <value cell_index="111" local_entity="0" value="18446744073709551615" />
-      <value cell_index="112" local_entity="0" value="18446744073709551615" />
-      <value cell_index="113" local_entity="0" value="18446744073709551615" />
-      <value cell_index="114" local_entity="0" value="18446744073709551615" />
-      <value cell_index="115" local_entity="0" value="18446744073709551615" />
-      <value cell_index="116" local_entity="0" value="18446744073709551615" />
-      <value cell_index="117" local_entity="0" value="18446744073709551615" />
-      <value cell_index="118" local_entity="0" value="18446744073709551615" />
-      <value cell_index="119" local_entity="0" value="18446744073709551615" />
-      <value cell_index="120" local_entity="0" value="18446744073709551615" />
-      <value cell_index="121" local_entity="0" value="18446744073709551615" />
-      <value cell_index="122" local_entity="0" value="18446744073709551615" />
-      <value cell_index="123" local_entity="0" value="18446744073709551615" />
-      <value cell_index="124" local_entity="0" value="18446744073709551615" />
-      <value cell_index="125" local_entity="0" value="18446744073709551615" />
-      <value cell_index="126" local_entity="0" value="18446744073709551615" />
-      <value cell_index="127" local_entity="0" value="18446744073709551615" />
-      <value cell_index="128" local_entity="0" value="18446744073709551615" />
-      <value cell_index="129" local_entity="0" value="18446744073709551615" />
-      <value cell_index="130" local_entity="0" value="18446744073709551615" />
-      <value cell_index="131" local_entity="0" value="18446744073709551615" />
-      <value cell_index="132" local_entity="0" value="18446744073709551615" />
-      <value cell_index="133" local_entity="0" value="18446744073709551615" />
     </mesh_value_collection>
   </mesh_function>
 </dolfin>
