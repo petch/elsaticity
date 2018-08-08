@@ -30,8 +30,8 @@ def Press(w, h, rx, ry, s):
 
 def PressTop(w, h, rx, ry, s):
     domain = Rectangle(Point(-w/2, 0), Point(w/2, h)) \
-           - Ellipse(Point(-w/2, h-ry), rx, ry, s) \
-           - Ellipse(Point(w/2, h-ry), rx, ry, s) \
+           - Ellipse(Point(-w/2, ry), rx, ry, s) \
+           - Ellipse(Point(w/2, ry), rx, ry, s) \
            - Rectangle(Point(-w/2, ry), Point(-w/2 + rx, h)) \
            - Rectangle(Point(w/2 - rx, ry), Point(w/2, h))
     return domain
@@ -91,7 +91,7 @@ def save(geo, name, resolution, refineTimes=0):
     
 
 fiberWidth  = 0.05
-fiberHeight = 0.0125
+fiberHeight = 0.025
 densityX    = 0.1
 densityY    = 0.1
 rveWidth    = 0.1
@@ -109,16 +109,14 @@ refineTimes = 1
 sparseWidth = 5*rveWidth
 sparseTop   = 6*rveWidth
 
-#parameters["lloyd_optimize"] = True
-#parameters["mesh_resolution"] = resolution
-#parameters["edge_truncate_tolerance"] = 1e-16
 
 rve = Composite(rveWidth, rveHeight, fiberWidth, fiberHeight, densityX, densityY)
 save(rve, "rve", sqrt(rveWidth*rveHeight)*resolution)
 
 press = Press(pressWidth, pressHeight, roundX, roundY, segments)
-pressTop = PressTop(pressWidth, pressHeight, roundX, roundY, segments)
 save(press, "press", sqrt(pressWidth*pressHeight)*resolution)
+
+pressTop = PressTop(pressWidth, pressHeight, roundX, roundY, segments)
 save(pressTop, "pressTop", sqrt(pressWidth*pressHeight)*resolution)
 
 block = Block(blockWidth, blockHeight, fiberWidth, fiberHeight, densityX, densityY, press, pressTop, sparseWidth)
